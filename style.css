@@ -1,0 +1,293 @@
+* {box-sizing:border-box}
+
+/* <uniquifier>: Use a unique and descriptive class name
+ <weight>: Use a value from 100 to 900 */
+
+.raleway-regular{
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* <uniquifier>: Use a unique and descriptive class name
+ <weight>: Use a value from 300 to 900*/
+
+.frank-ruhl-libre-regular {
+  font-family: "Frank Ruhl Libre", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.frank-ruhl-libre-bold {
+    font-family: "Frank Ruhl Libre", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+  h1 {
+    font-size: 4rem;
+  }
+  .title-para {
+    font-size: 1.7rem;
+  }
+  /* <uniquifier>: Use a unique and descriptive class name
+  / <weight>: Use a value from 400 to 800*/
+  
+  .baloo-thambi-2 {
+    font-family: "Baloo Thambi 2", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+  }
+
+  .navbar{
+    background-color:#DCE5EC;
+    display:flex;
+    padding: 10px;
+    font-family: "Raleway", sans-serif;
+    font-weight:600;
+    font-size: 1.3rem;
+
+  }
+
+  .nav-logo-link{
+    position:relative;
+    font-size: 2.5rem;
+
+  }
+
+  .navbar-items {
+    display:flex;
+    width: 60%;
+    justify-content:space-around;
+    align-content: flex-end;
+   
+  }
+
+  .navbar-link{ 
+    margin-top:3px;
+    align-self: center;
+  }
+
+  .navbar-right{
+    margin-left: auto;
+  }
+
+  .logo-purple{
+    color:#9E0596
+  }
+
+  .navbar-link-toggle{
+    display: none !important;
+  }
+  /*Navbar responsiveness */
+  @media (max-width:780px){
+    
+    .navbar-link{
+      align-self: flex-start;
+    }
+    
+    .nav-logo-link{
+      font-size: 1.75rem;
+  
+    }
+
+    .navbar, .navbar-items{
+      flex-direction: column;
+      align-content: flex-end;     
+    
+    }
+
+    .navbar-items{
+      display: none;
+    }
+
+    .navbar-right {
+      justify-self: flex-start;
+      margin:0;
+   
+    }
+
+    .navbar-toggleShow{
+      display: flex;
+    }
+
+    .navbar-link-toggle {
+      display: initial !important;
+      cursor: pointer;
+      position:absolute;
+      top:4px;
+      right:-30px;
+  
+    }
+  }
+
+  .hero{
+    display:flex;
+  }
+
+  .hero-title {
+    background-color: #FEF1E0;
+    flex-basis:40%;
+    align-content: center;
+    padding-left: 50px;
+    padding-bottom:30px;
+  }
+
+  .hero-image {
+    flex-basis:60%;
+  }
+
+  .hero-image img{
+    height: 100%;
+    max-width:100%;
+    object-fit: cover;
+  }
+
+  button {
+    display:inline-block;
+    color:white;
+    cursor:pointer;
+    width:45%;
+    opacity:0.8;
+    background-color: rgb(88,157,217);
+    padding:14px 20px;
+    border:none;
+    font-size: 1.25rem;
+  }
+
+  .package-btn {
+    border: 3px solid rgb(88,157,217);
+    background: none;
+    color:rgb(88,157,217);
+    padding:11px 20px; 
+  }
+
+  button:hover, .package-btn:hover{
+    opacity: 1;
+    color:white;
+    background-color: rgb(88,157,217);
+    padding:14px 20px;
+    border:none;
+
+  }
+  /*Hero responsiveness */
+  @media (max-width:780px){
+    .hero{
+      flex-direction: column;
+    }
+       
+    .hero-title{
+      padding-left: 10px;
+    }
+
+    button{
+      margin-top: 25px;
+      width:35%;
+    }
+
+    .hero-title > h1 {
+      font-size: 3rem;
+    }
+    .title-para{
+      font-size: 1.5rem;
+    }
+  }
+
+  /***********Features****************/
+
+  h2{
+    font-size: 3rem;
+    font-family:"Frank Ruhl Libre" ;
+    margin-top: 0;
+    
+  }
+
+  h3{
+    font-size: 1.75rem;
+    margin-top: 0;
+    margin-bottom:10px
+  }
+
+  .i-brief-bio p {
+    font-size: 1.5rem;
+    font-family: "raleway-regular";
+    line-height: 1.7;
+    max-width: 90%;
+  }
+
+
+  .c-features {
+    display:flex;
+    width:100%;
+    justify-content: space-around;
+    margin-top: 100px;
+  }
+
+  .c-brief-bio, .c-subjects1, .c-subjects2{
+    flex-basis:30%;
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: space-around;
+  }
+  
+  .c-brief-bio{
+    padding-left: 50px;
+  }
+  
+  .i-subject{
+    align-self: center;
+  }
+
+
+  figure{
+    display:flex;
+    flex-direction: column;
+    max-width: 300px;
+    margin-top: 0;
+    margin-bottom:100px;
+  }
+  
+  figcaption{
+    padding-top: 20px;
+    font-size: 1.2rem;
+    font-family: "raleway-regular";
+  }
+
+.i-subject img{
+  height: 100%;
+  max-width: 300px;
+  object-fit: cover;
+}
+
+
+@media (max-width:780px){
+
+  .c-features{
+    flex-direction: column;
+  }
+
+  figure{
+    display:flex;
+    max-width: 100%;
+    height:250px;
+  }
+
+  .i-chemistry{
+    padding-top: 50px;
+  }
+  
+  .i-subject{
+    padding-bottom:75px ;
+  }
+  .i-subject img{
+    height: 100%;
+    max-width: 100%;
+    object-fit: cover;
+  }
+
+}

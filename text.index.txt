@@ -1,0 +1,186 @@
+ <!--Hero Section-->        
+    
+        
+        <div class="landing-message grid-hero-info">
+    
+
+                    <h1 class="frank-ruhl-libre-bold h1-hero">Private Tutoring Online</h1>
+  
+                    <p class="raleway-regular p-hero">Let me help you get the grade you want.</p>
+
+                    <button class="btn frank-ruhl-libre-bold book-btn" type="button">Book a Lesson</button>
+                    <button class="btn frank-ruhl-libre-bold package-btn" type="button">Pick a Package</button>
+
+        </div>
+
+        <div class="grid-hero-img">
+            <img src="./assets/images/two-girls-studying.jpg" />
+        </div>
+    </div>    
+
+    <!--Features-->
+    <div class="features-grid-container">
+        <div class="feature-whitespace">
+
+        </div>
+        <div class="short-bio">
+            
+            <div class="bio-flex-container">
+                <div>            
+                    <h2 class="h2-features frank-ruhl-libre-bold">What do I teach?</h2>
+                    <p class="raleway-regular font-16pt">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rhoncus ut ligula non tincidunt. Curabitur iaculis orci nisi, ac egestas nunc vulputate id. Sed augue dolor, fringilla at elit lobortis, consequat gravida massa. Cras elementum suscipit mauris ac elementum. Nullam in sem gravida, auctor purus a, suscipit elit.
+                    </p>
+                </div>
+                <div>
+                    <button type="button">About Me</button>
+                </div>
+            </div>
+        </div>
+        <div class="subjects">
+            <div class="subjects-flex-container">
+                <div class="subjects-col-1">
+                    <h3 class="frank-ruhl-libre-bold chemistry">Chemistry</h3>
+                    <img src="./assets/images/placeholder1300x300.jpg"/>
+                    
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rhoncus ut ligula non tincidunt.</p> 
+                    
+                    <h3 class="frank-ruhl-libre-bold act">ACT</h3>
+                    <img src="./assets/images/placeholder3-300x300.jpg">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rhoncus ut ligula non tincidunt.</p>
+                </div>
+                
+                <div class="subjects-row-2">
+                    <h3 class="frank-ruhl-libre-bold sat">SAT</h3>
+                    <img src="./assets/images/placeholder2-300x300.jpg"/>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rhoncus ut ligula non tincidunt.</p>
+                    
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!--Reviews-->
+    <section id="reviews">
+    <div class="review-grid">
+        <div class="testimonial">
+            <h2>Reviews</h2>
+            <p class="raleway-regular font-16pt">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rhoncus ut ligula non tincidunt.</p>
+        </div>
+        
+    <!--Slideshow container-->    
+        <div class="slideshow-container">
+                <!--Adjustable Width images and caption text-->
+                <div class="mySlides fade">
+                    <div class="numertext">1 / 3</div>
+                    <img src="./assets/images/placeholder1-800x500.jpg"/>
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="numertext">2 / 3</div>
+                    <img src="./assets/images/placeholder2-800x500.jpg"/>
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="numertext">3 / 3</div>
+                    <img src="./assets/images/placeholder3-800x500.jpg"/>
+                </div>
+
+                <!-- <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(+1)">&#10095;</a> -->
+            
+                <br />
+
+    <!--The dots/circles-->
+                <div style="text-align:center">
+                    <span class="dot" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(2)"></span>
+                    <span class="dot" onclick="currentSlide(3)"></span>
+                </div>
+        
+        </div>
+    </div>
+
+</section>
+    <!--Contact Me-->
+<section id="contact-me">
+    <div class="contact-container">
+        <div class="contact-box">
+            <h2 class="h2-contact">Contact Me & Let's Get Started</h2>
+            <p class="font-16pt">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rhoncus ut ligula non tincidunt.</p>
+            <button type="button">Introduction Call</button>
+        </div>
+        
+        <div class="contact-fname contact-cell">
+            <label for="fname"><b>First Name</b></label>
+            <input type="text" name="fname"/>
+        </div>
+        <div class="contact-lname contact-cell">
+            <label for="lname"><b>Last Name</b></label>
+            <input type="text" name="lname"/>
+        </div>
+        <div class="contact-email contact-cell">
+            <label for="email"><b>Email*</b></label>
+            <input type="text" name="email" required/>
+        </div>
+        <div class="contact-msg contact-cell">
+            <label for="msg"><b>Message</b></label>
+            <div class="msg-flex">
+            <form>
+            <textarea cols="20" name="msg" wrap="hard"></textarea>
+            </form>
+            <button type="submit">Submit</button>
+            </div>
+             
+        </div>
+        <!-- <div class="submit-btn">
+           
+
+        </div> -->
+    </div>
+
+</section>
+
+
+
+    <!--Footer-->
+    <footer>
+            
+    <div class="flex-footer">
+
+    
+        <div class="grid-logo-item logo footer-col">
+        <a class="logo" href="#"><span class="logo-orange">Lundell</span>Tutoring</a>
+        </div>
+
+        <div class="footer-col">
+            <ul>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Lessons</a> </li>
+                <li><a href="#">Assignment</a>s</li>
+                <li><a href="#">Package</a>s</li>
+                <li><a href="#">Learning Tools</a></li>
+            </ul>
+        </div>
+        <ul>
+            <li>info@mysite.com</li>
+            <li>123-4566-7890</li>
+
+        </ul>
+        <div class="footer-col">
+            <ul>
+                <li>&copy; 2024 by Lundell Tutoring</li>
+                <li>Powered by Fyrelily Web Development</li>
+    
+            </ul>
+        </div>
+
+        <div class="footer-col">
+
+        </div>
+
+
+    </div>
+
+</footer>

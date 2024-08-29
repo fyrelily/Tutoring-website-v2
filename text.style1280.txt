@@ -1,0 +1,165 @@
+@media (max-width:1280px){
+
+
+    .logo{
+       font-size: 20pt;
+    }
+
+    .h1-hero{
+        font-size: 32pt;
+     }
+    
+    .p-hero{
+    font-size: 18pt;
+        
+    }
+    
+    .grid-nav-item{
+        grid-area: 1/2/2/3;
+        align-self: center;
+    }
+    
+    .nav-btn{
+        font-size: 12pt;        
+    }
+
+    .nav-btn img{
+        float:left;
+        height: 15px;
+    }
+
+    
+    button {
+        font-size: 12pt;
+    }
+    
+    .features-grid-container{
+        padding: 0 30px 100px 0px;
+    }
+    
+    .h2-features, .testimonial > h2, .contact-box>h2 {
+        font-size: 32pt;
+    }
+    
+    .font-16pt {
+        font-size: 14pt;
+    }
+    
+    
+    .subjects-flex-container h3 {
+        font-size: 20pt;
+        margin-bottom: 10px;
+    }
+    
+    h3.act {
+    margin-top: 50px;
+    }
+    
+    .subjects-flex-container img{
+        height:200px;
+        width: 266px;
+    }
+    
+    .subjects-flex-container p{
+    width:266px;
+    }
+    
+    .review-grid{
+        display:grid;
+        width:100%;
+        height:100vh;
+        grid-template-columns: 30% 70%;
+        grid-template-rows:1fr 8fr 1fr;
+        padding: 0 30px 0 30px;
+
+    }
+
+    /*Slideshow Container */
+    .slideshow-container {
+        max-width:100%;
+        position:relative;
+        margin:auto;
+    }
+
+    /*Number text (1/3 etc) */
+    .numbertext {
+        font-size: 10px;
+    }
+
+    .dot {
+        height: 12px;
+        width: 12px;
+    }
+
+    input {
+        font-size: 12px;
+    }
+    
+    input:hover, textarea:hover {
+        border-bottom: 2px solid black;
+    }
+    
+    #contact-me label {
+    font-size: 16pt;
+    }
+    
+    .msg-flex{
+        display: flex;
+        position: relative;
+        height: 97%;
+        max-width: 100%;
+    }
+    
+    textarea {
+        position:absolute;
+        height:100%;
+        line-height: 1.5;
+        width:100%;
+        max-width: 84%;
+        padding-top: 15px;
+        background: none;
+        resize: none;
+        border: none;
+        border-bottom: 4px solid black;
+        font-size: 12px;
+        outline: none;
+    }
+    
+    button[type=submit] {
+        position:absolute;
+        width:15%;
+        right:0px;
+        bottom:0px;
+    }
+    
+    .flex-footer{
+        display: flex;
+        justify-content: space-around;  
+    }
+    
+    .footer-col{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    footer li {
+        list-style: none;
+        line-height: 1.5;
+        letter-spacing: 1px;
+        font-size: 16px;
+    }
+    
+    footer li a {
+        text-decoration: none;
+        color:black;
+    }
+    
+
+
+
+
+
+    
+}
+
+
